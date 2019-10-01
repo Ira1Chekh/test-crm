@@ -36,7 +36,7 @@
                     page = 1;
                 }
 
-                this.$http.get('/categories?page=' + page)
+                this.$http.get('/companies?page=' + page)
                     .then(response => {
                         return response.json();
                     }).then(data => {

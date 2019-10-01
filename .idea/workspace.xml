@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="326f5c7b-c997-423c-9055-a37fdec15671" name="Default Changelist" comment="" />
+    <list default="true" id="326f5c7b-c997-423c-9055-a37fdec15671" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/DataComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/DataComponent.vue" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +214,9 @@
       <workItem from="1569512454644" duration="4170000" />
       <workItem from="1569795635782" duration="6390000" />
       <workItem from="1569842270997" duration="6701000" />
-      <workItem from="1569880357273" duration="8248000" />
+      <workItem from="1569880357273" duration="8979000" />
+      <workItem from="1569889527953" duration="58000" />
+      <workItem from="1569944024644" duration="1113000" />
     </task>
     <servers />
   </component>
