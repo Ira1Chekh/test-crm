@@ -1857,7 +1857,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -1878,7 +1877,7 @@ __webpack_require__.r(__webpack_exports__);
         page = 1;
       }
 
-      this.$http.get('/categories?page=' + page).then(function (response) {
+      this.$http.get('/companies?page=' + page).then(function (response) {
         return response.json();
       }).then(function (data) {
         _this.laravelData = data;
@@ -38598,27 +38597,25 @@ var render = function() {
             _vm._v("Laravel vue pagination")
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "card-body" }, [
-            _c(
-              "div",
-              { staticStyle: { "justify-content": "start" } },
-              [
-                _c(
-                  "ul",
-                  _vm._l(_vm.laravelData.data, function(tag) {
-                    return _c("li", { key: tag.id }, [_vm._v(_vm._s(tag.name))])
-                  }),
-                  0
-                ),
-                _vm._v(" "),
-                _c("pagination", {
-                  attrs: { data: _vm.laravelData },
-                  on: { "pagination-change-page": _vm.getResults }
-                })
-              ],
-              1
-            )
-          ])
+          _c(
+            "div",
+            { staticClass: "card-body" },
+            [
+              _c(
+                "ul",
+                _vm._l(_vm.laravelData.data, function(tag) {
+                  return _c("li", { key: tag.id }, [_vm._v(_vm._s(tag.name))])
+                }),
+                0
+              ),
+              _vm._v(" "),
+              _c("pagination", {
+                attrs: { data: _vm.laravelData },
+                on: { "pagination-change-page": _vm.getResults }
+              })
+            ],
+            1
+          )
         ])
       ])
     ])
